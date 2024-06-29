@@ -93,7 +93,6 @@ industry_analysis_task = Task(
     agent=industry_analyzer_agent,
 )
 
-
 metrics_evaluation_agent = Agent(
     role="Metrics Evaluation Agent",
     goal="Define 'good' values for six key financial metrics for companies within each of the top-performing "
@@ -195,9 +194,35 @@ top_picks_analysis_task = Task(
     agent=top_picks_analysis_agent,
 )
 
+# portfolio_value_calculation_agent = Agent(
+#     role="Portfolio Value Calculation Agent",
+#     goal="Calculate the total portfolio value by buying stocks on the first trading day of 2022 and selling on the last trading day of 2023 for the selected companies.",
+#     backstory="This agent is skilled in financial analysis and proficient in using financial data APIs. The agent uses historical stock data to calculate investment returns based on the initial investment strategy.",
+#     verbose=True,
+#     allow_delegation=False,
+#     tools=[search_tool, scrape_tool, CalculatorTools.calculate]
+# )
+#
+# portfolio_value_calculation_task = Task(
+#     description=(
+#         "Calculate the total portfolio value by buying stocks of the selected companies on the first trading day of 2022 and selling on the last trading day of 2023. "
+#         "Use the initial investment amount of $1M, divided equally among the selected companies."
+#     ),
+#     expected_output=(
+#         "1. Total portfolio value at the end of 2023.\n"
+#         "2. Detailed report of the buy and sell prices, number of shares bought, and final value for each company."
+#     ),
+#     agent=portfolio_value_calculation_agent,
+# )
+
 manager = Agent(
     role="Manager",
-    goal="Ouput the best 3 US companies in each of top 5 industries in the period 2017-2021. The last output must be in markdown format. Oversee the multi-agent system designed to backtest long-term investment strategies. Ensure each agent operates efficiently and collaboratively to identify and analyze top-performing industries and companies based on defined financial metrics. ",
+    goal="Output the best 3 US companies in each of top 5 industries in the period 2017-2021. "
+         "The last output must be in markdown format. "
+         "Oversee the multi-agent system designed "
+         "to backtest long-term investment strategies. Ensure each agent operates efficiently "
+         "and collaboratively to identify and analyze top-performing industries and companies "
+         "based on defined financial metrics. ",
     backstory="This agent holds a Master’s degree in Finance and an MBA, along with CFA and CIMA certifications. "
               "With a proven track record in investment management and strategic planning, the agent has extensive experience in overseeing data-driven projects and teams within the financial sector. "
               "The agent is responsible for strategic decision-making, validating outputs, and ensuring the system's alignment with broader investment goals.",
