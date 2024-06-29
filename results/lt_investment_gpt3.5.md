@@ -54,6 +54,8 @@ The evaluation process involved analyzing key financial metrics such as revenue 
     - Exxon Mobil Corporation: Stable financials and strong operational efficiency.
     - Chevron Corporation: Solid financial health and growth potential.
     - EOG Resources Inc.: Promising financials and strategic positioning in the energy sector.
+
+### Investment Report (2022-2023):
 Here is the detailed report of the buy and sell prices, number of shares bought, and final value for each company in the portfolio:
 The total portfolio value at the end of the given period (2022 to 2023) for the selected companies, after selling the stocks on the last trading day of 2023, is $1,139,345.35. Here is a detailed report of the buy and sell prices, number of shares bought, and final value for each company:
 
