@@ -1,13 +1,12 @@
 import os
 import warnings
 
-from langchain_openai import ChatOpenAI
-
 from tools.calculator_tools import CalculatorTools
+from tools.ticker_price import TickerPrice
 
 warnings.filterwarnings('ignore')
 from dotenv import load_dotenv
-from crewai import Agent, Task, Crew, Process
+from crewai import Agent, Task, Crew
 from crewai_tools import ScrapeWebsiteTool, SerperDevTool
 
 MANAGER_MODEL = "gpt-3.5-turbo"
@@ -32,7 +31,9 @@ portfolio_value_calculation_agent = Agent(
               "investment strategy.",
     verbose=True,
     allow_delegation=True,
-    tools=[scrape_tool, search_tool, CalculatorTools.calculate],
+    max_iter=1000,
+    max_execution_time=None,
+    tools=[TickerPrice.get_stock_close_price, CalculatorTools.calculate],
 )
 
 portfolio_value_calculation_task = Task(
