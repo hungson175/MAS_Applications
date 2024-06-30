@@ -1,6 +1,8 @@
 import os
 import warnings
+from datetime import datetime
 
+from tools import ticker_price
 from tools.calculator_tools import CalculatorTools
 from tools.ticker_price import TickerPrice
 
@@ -8,6 +10,28 @@ warnings.filterwarnings('ignore')
 from dotenv import load_dotenv
 from crewai import Agent, Task, Crew
 from crewai_tools import ScrapeWebsiteTool, SerperDevTool
+import yfinance as yf
+from datetime import datetime, timedelta
+
+def get_stock_close_price(ticker, date):
+    """Useful to get the close price of a stock at a specific date.
+    The input to this tool should be: ticker, date in the format `YYYY-MM-DD`.
+    """
+    # Convert date string to datetime object and adjust the end date
+    date = datetime.strptime(date, '%Y-%m-%d')
+    next_day = date + timedelta(days=2)  # Adding two days to ensure the date is included
+
+    # Fetch data
+    stock = yf.Ticker(ticker)
+    hist = stock.history(start=date.strftime('%Y-%m-%d'), end=next_day.strftime('%Y-%m-%d'))
+
+    # Retrieve close price if available
+    try:
+        close_price = hist.loc[date.strftime('%Y-%m-%d'), 'Close']
+        return close_price
+    except KeyError:
+        return "No data available for this date."
+
 
 MANAGER_MODEL = "gpt-3.5-turbo"
 AGENT_MODEL = "gpt-4-turbo"
@@ -51,8 +75,24 @@ portfolio_value_calculation_task = Task(
     ),
     agent=portfolio_value_calculation_agent,
 )
-companies = ["AAPL", "MSFT", "NVDA", "JNJ", "TMO", "MDT", "JPM", "V", "MA", "PG", "PEP", "EL", "XOM", "CVX", "EOG"]
-
+# companies = ["AAPL", "MSFT", "NVDA", "JNJ", "TMO", "MDT", "JPM", "V", "MA", "PG", "PEP", "EL", "XOM", "CVX", "EOG"]
+companies = [
+    "AAPL",  # Apple Inc.
+    "MSFT",  # Microsoft Corporation
+    "NVDA",  # NVIDIA Corporation
+    "UNH",  # UnitedHealth Group Incorporated
+    "LLY",  # Eli Lilly and Company
+    "JNJ",  # Johnson & Johnson
+    "HON",  # Honeywell International Inc.
+    "UNP",  # Union Pacific Corporation
+    "MMM",  # 3M Company
+    "TSLA",  # Tesla, Inc.
+    "AMZN",  # Amazon.com, Inc.
+    "HD",  # The Home Depot, Inc.
+    "LIN",  # Linde plc
+    "SHW",  # Sherwin-Williams Company
+    "FCX"  # Freeport-McMoRan Inc.
+]
 inputs = {
     "from_year": "2022",
     "to_year": "2023",
@@ -66,7 +106,20 @@ crew = Crew(
     verbose=True,
 )
 
-results = crew.kickoff(inputs=inputs)
-
-print("######################")
-print(results)
+index = 0
+total = 0
+print("Below are the details of trading the selected companies: \n")
+for company in companies:
+    index += 1
+    buying_price = get_stock_close_price(ticker=company, date="2022-01-03")
+    no_stocks = int(inputs["initial_investment"]) / len(companies) / buying_price
+    selling_price = get_stock_close_price(ticker=company, date="2023-12-29")
+    final_value = selling_price * no_stocks
+    total += final_value
+    print(
+        f"{index}. **{company}**\n-Buying Price: {buying_price}\n-Number of Stocks: {no_stocks}\n-Selling Price: {selling_price}\n-Final Value: {final_value}\n")
+print(f"Total Portfolio Value at the end of period: ${total}")
+# results = crew.kickoff(inputs=inputs)
+#
+# print("######################")
+# print(results)

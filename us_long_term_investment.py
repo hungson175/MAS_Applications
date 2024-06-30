@@ -10,8 +10,8 @@ from dotenv import load_dotenv
 from crewai import Agent, Task, Crew, Process
 from crewai_tools import ScrapeWebsiteTool, SerperDevTool
 
-MANAGER_MODEL = "gpt-3.5-turbo"
-AGENT_MODEL = "gpt-3.5-turbo"
+MANAGER_MODEL = "gpt-4-turbo"
+AGENT_MODEL = "gpt-4-turbo"
 
 load_dotenv()
 
@@ -194,30 +194,9 @@ top_picks_analysis_task = Task(
     agent=top_picks_analysis_agent,
 )
 
-# portfolio_value_calculation_agent = Agent(
-#     role="Portfolio Value Calculation Agent",
-#     goal="Calculate the total portfolio value by buying stocks on the first trading day of 2022 and selling on the last trading day of 2023 for the selected companies.",
-#     backstory="This agent is skilled in financial analysis and proficient in using financial data APIs. The agent uses historical stock data to calculate investment returns based on the initial investment strategy.",
-#     verbose=True,
-#     allow_delegation=False,
-#     tools=[search_tool, scrape_tool, CalculatorTools.calculate]
-# )
-#
-# portfolio_value_calculation_task = Task(
-#     description=(
-#         "Calculate the total portfolio value by buying stocks of the selected companies on the first trading day of 2022 and selling on the last trading day of 2023. "
-#         "Use the initial investment amount of $1M, divided equally among the selected companies."
-#     ),
-#     expected_output=(
-#         "1. Total portfolio value at the end of 2023.\n"
-#         "2. Detailed report of the buy and sell prices, number of shares bought, and final value for each company."
-#     ),
-#     agent=portfolio_value_calculation_agent,
-# )
-
 manager = Agent(
     role="Manager",
-    goal="Output the best 3 US companies in each of top 5 industries in the period 2017-2021. "
+    goal="Output the best 3 US companies (in S&P 500) in each of top 5 industries in the period 2017-2021. "
          "The last output must be in markdown format. "
          "Oversee the multi-agent system designed "
          "to backtest long-term investment strategies. Ensure each agent operates efficiently "
