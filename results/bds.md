@@ -2,7 +2,7 @@
 
 Trong bối cảnh thị trường bất động sản Việt Nam đang trên đà phục hồi mạnh mẽ sau đại dịch, các nhà đầu tư thông minh đang tìm kiếm những cơ hội đầu tư có tiềm năng sinh lời cao. Đầu tư vào bất động sản hiện hữu, đặc biệt là trong các dự án có vị trí đắc địa, tiềm năng tăng giá và tính thanh khoản cao, luôn là lựa chọn hàng đầu.
 
-## Tại Sao Nên Đầu Tư vào Bất Động Sản?
+## Các tiêu chí  đầu tư Bất Động Sản?
 
 - **Vị trí**: Một trong những yếu tố quan trọng nhất khi đầu tư bất động sản là vị trí. Một vị trí tốt không chỉ đảm bảo khả năng sinh lời thông qua tăng giá theo thời gian mà còn giúp dễ dàng cho thuê hoặc bán lại khi cần.
 - **Tiềm năng tăng giá**: Bất động sản tại các khu vực đang phát triển, gần các tiện ích xã hội và hạ tầng giao thông mới luôn có khả năng tăng giá trong tương lai.
