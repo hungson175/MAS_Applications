@@ -10,8 +10,8 @@ from dotenv import load_dotenv
 from crewai import Agent, Task, Crew, Process
 from crewai_tools import ScrapeWebsiteTool, SerperDevTool
 
-MANAGER_MODEL = "gpt-4-turbo"
-AGENT_MODEL = "gpt-4-turbo"
+MANAGER_MODEL = "gpt-3.5-turbo"
+AGENT_MODEL = "gpt-3.5-turbo"
 
 load_dotenv()
 

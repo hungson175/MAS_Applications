@@ -170,7 +170,7 @@ football_analysis_crew = Crew(
 )
 
 football_match_inputs = {
-    'match_selection': 'France vs. Belgium',
+    'match_selection': 'Germany vs. Spain',
     'news_impact_consideration': True,
 }
 

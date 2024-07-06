@@ -154,96 +154,93 @@ The selection of the top three companies in each industry was based on a compreh
 Each company was chosen based on its outstanding financial health, industry leadership, and strategic market position. These companies have demonstrated not only the ability to navigate market challenges but also the capacity to innovate and drive industry trends, thereby offering promising investment opportunities for the future.
 
 # Investment Performance Summary (2022-2023)
-Below are the details of trading the selected companies: 
-
+Total Portfolio Value at the end of period: $1,101,984.39
 1. **AAPL**
--Buying Price: 179.48114013671875
--Number of Stocks: 371.44106960700003
--Selling Price: 192.02418518066406
--Final Value: 71325.6687339185
+   - Buying Price: $179.48
+   - Number of Stocks: 371.44
+   - Selling Price: $192.02
+   - Final Value: $71,325.67
 
 2. **MSFT**
--Buying Price: 327.5300598144531
--Number of Stocks: 203.54365857116613
--Selling Price: 374.6700744628906
--Final Value: 76261.717713308
+   - Buying Price: $327.53
+   - Number of Stocks: 203.54
+   - Selling Price: $374.67
+   - Final Value: $76,261.72
 
 3. **NVDA**
--Buying Price: 30.07563018798828
--Number of Stocks: 2216.634073832051
--Selling Price: 49.51560974121094
--Final Value: 109757.98773893839
+   - Buying Price: $30.08
+   - Number of Stocks: 2,216.63
+   - Selling Price: $49.52
+   - Final Value: $109,757.99
 
 4. **UNH**
--Buying Price: 484.5989990234375
--Number of Stocks: 137.5707890462282
--Selling Price: 522.1874389648438
--Final Value: 71837.73800842269
+   - Buying Price: $484.60
+   - Number of Stocks: 137.57
+   - Selling Price: $522.19
+   - Final Value: $71,837.74
 
 5. **LLY**
--Buying Price: 264.5326232910156
--Number of Stocks: 252.01680547856603
--Selling Price: 580.9098510742188
--Final Value: 146399.04493875414
+   - Buying Price: $264.53
+   - Number of Stocks: 252.02
+   - Selling Price: $580.91
+   - Final Value: $146,399.04
 
 6. **JNJ**
--Buying Price: 159.71217346191406
--Number of Stocks: 417.41756574719966
--Selling Price: 154.31153869628906
--Final Value: 64412.34684930978
+   - Buying Price: $159.71
+   - Number of Stocks: 417.42
+   - Selling Price: $154.31
+   - Final Value: $64,412.35
 
 7. **HON**
--Buying Price: 196.10997009277344
--Number of Stocks: 339.94532065416547
--Selling Price: 207.46519470214844
--Final Value: 70526.82213760073
+   - Buying Price: $196.11
+   - Number of Stocks: 339.95
+   - Selling Price: $207.47
+   - Final Value: $70,526.82
 
 8. **UNP**
--Buying Price: 233.74485778808594
--Number of Stocks: 285.2112653836729
--Selling Price: 242.97361755371094
--Final Value: 69298.8129173425
+   - Buying Price: $233.74
+   - Number of Stocks: 285.21
+   - Selling Price: $242.97
+   - Final Value: $69,298.81
 
 9. **MMM**
--Buying Price: 131.33087158203125
--Number of Stocks: 507.62372824904054
--Selling Price: 89.29113006591797
--Final Value: 45326.29634363128
+   - Buying Price: $131.33
+   - Number of Stocks: 507.62
+   - Selling Price: $89.29
+   - Final Value: $45,326.30
 
 10. **TSLA**
--Buying Price: 399.9266662597656
--Number of Stocks: 166.69722799470557
--Selling Price: 248.47999572753906
--Final Value: 41420.92649991705
+    - Buying Price: $399.93
+    - Number of Stocks: 166.70
+    - Selling Price: $248.48
+    - Final Value: $41,420.93
 
 11. **AMZN**
--Buying Price: 170.4044952392578
--Number of Stocks: 391.22598598741655
--Selling Price: 151.94000244140625
--Final Value: 59442.87726606964
+    - Buying Price: $170.40
+    - Number of Stocks: 391.23
+    - Selling Price: $151.94
+    - Final Value: $59,442.88
 
 12. **HD**
--Buying Price: 382.85247802734375
--Number of Stocks: 174.13147489646198
--Selling Price: 342.1113586425781
--Final Value: 59572.355459264596
+    - Buying Price: $382.85
+    - Number of Stocks: 174.13
+    - Selling Price: $342.11
+    - Final Value: $59,572.36
 
 13. **LIN**
--Buying Price: 326.9286804199219
--Number of Stocks: 203.91807344964965
--Selling Price: 408.1885681152344
--Final Value: 83237.02641422968
+    - Buying Price: $326.93
+    - Number of Stocks: 203.92
+    - Selling Price: $408.19
+    - Final Value: $83,237.03
 
 14. **SHW**
-- Buying Price: 331.1128845214844
-- Number of Stocks: 201.34120350831887
-- Selling Price: 310.5011291503906
-- Final Value: 62516.6710338316
+    - Buying Price: $331.11
+    - Number of Stocks: 201.34
+    - Selling Price: $310.50
+    - Final Value: $62,516.67
 
 15. **FCX**
-- Buying Price: 39.90670394897461
-- Number of Stocks: 1670.563090149159
-- Selling Price: 42.28999328613281
-- Final Value: 70648.10186646922
-
-Total Portfolio Value at the end of period: $1101984.3939210076
+    - Buying Price: $39.91
+    - Number of Stocks: 1,670.56
+    - Selling Price: $42.29
+    - Final Value: $70,648.10
