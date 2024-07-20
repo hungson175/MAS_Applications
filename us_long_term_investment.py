@@ -206,7 +206,7 @@ manager = Agent(
               "With a proven track record in investment management and strategic planning, the agent has extensive experience in overseeing data-driven projects and teams within the financial sector. "
               "The agent is responsible for strategic decision-making, validating outputs, and ensuring the system's alignment with broader investment goals.",
     verbose=True,
-    llm=ChatOpenAI(model=MANAGER_MODEL, temperature=0.2),
+    llm=ChatOpenAI(model=MANAGER_MODEL, temperature=0.05),
     allow_delegation=True,
 )
 crew = Crew(

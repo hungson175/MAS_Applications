@@ -6,8 +6,8 @@ warnings.filterwarnings('ignore')
 from crewai import Agent, Task
 from langchain_openai import ChatOpenAI
 
-MANAGER_MODEL = "gpt-3.5-turbo"
-AGENT_MODEL = "gpt-3.5-turbo"
+MANAGER_MODEL = "gpt-4-turbo"
+AGENT_MODEL = "gpt-4-turbo"
 # IP_ADDRESS = "http://192.168.0.223"
 
 # IP_ADDRESS = "http://localhost"
@@ -49,7 +49,8 @@ fd_aa = Agent(
 data_analysis_task = Task(
     description=(
         "Monitor and analyze football data for "
-        "the selected match ({match_selection}) in UEFA Euro 2024."
+        "the final match ({match_selection}) of UEFA Euro 2024. Pay attention VERY closely to the latest news, "
+        "especially: recent matches performance, injuries & yellow/red cards. "
         "Utilize advanced statistical modeling and machine learning to "
         "identify performance trends, assess team strategies, and predict the outcome of the match. "
         "Focus on player impact forecasts, specific match predictions, and tactical recommendations."
@@ -58,7 +59,7 @@ data_analysis_task = Task(
         "Comprehensive insights including detailed predictions of the selected match outcome, "
         "key player performance analyses, and strategic adjustments likely to be made by teams. "
         "Provide alerts on significant trends and potential game-changing factors such as player injuries, "
-        "weather conditions, and tactical shifts."
+        "recent matches performance, and tactical shifts."
     ),
     agent=fd_aa,
 )
@@ -66,10 +67,11 @@ data_analysis_task = Task(
 player_analyst_agent = Agent(
     role="Player Analyst",
     goal="Analyze key players’ performances based on data and predictions provided by the "
-         "Football Data Analyst Agent (FDAA), supplemented with targeted web searches.",
+         " Data Analyst Agent (DAA), supplemented with targeted web searches.",
     backstory="Embodying the analytical acumen and in-depth understanding of football "
-              "dynamics akin to Gary Neville, this agent brings expert-level analysis into player performance. "
-              "Primarily relying on data from the FDAA, it mirrors Neville’s approach to enhancing "
+              "dynamics akin to Gary Neville, this agent brings expert-level analysis into player performance from "
+              "a player perspective. Primarily relying on data from the DAA, "
+              "it mirrors Neville’s approach to enhancing "
               "insight with tactical knowledge and up-to-date information on "
               "player conditions and strategic deployments.",
     verbose=True,
@@ -80,9 +82,9 @@ player_analyst_agent = Agent(
 player_analysis_task = Task(
     description=(
         "Utilizing the analytical style of Gary Neville, focus on key players identified by the "
-        "Football Data Analyst Agent (FDAA) for the selected match ({match_selection}) in UEFA Euro 2024. "
+        "Data Analyst Agent (DAA) for the final match ({match_selection}) of UEFA Euro 2024. "
         "Analyze these players' current form, tactical roles, and potential impact, "
-        "using foundational data from FDAA enhanced with selective web searches for the latest updates."
+        "using foundational data from DAA enhanced with selective web searches for the latest updates."
     ),
     expected_output=(
         "Detailed analysis reports on key players who are expected to be crucial in determining the match outcome. "
@@ -97,7 +99,8 @@ player_analysis_task = Task(
 coach_analyst_agent = Agent(
     role="Coach Analyst",
     goal="Predict and formulate the most effective strategies for the upcoming match,"
-         " considering the direct implications for tournament progression.",
+         " considering the recent matches provided by Data Analyst and "
+         "player insights provided by the Player Perspective Agent.",
     backstory="Modeled after Sir Arsène Wenger, this agent combines a deep understanding"
               " of football dynamics with a meticulous approach to match preparation. "
               "Known for his foresight and tactical innovation, the agent uses data-driven "
@@ -111,10 +114,10 @@ coach_analyst_agent = Agent(
 
 coach_strategy_task = Task(
     description=(
-        "Integrate detailed match data from the Football Data Analyst Agent (FDAA) and critical "
-        "player insights from the Player Perspective Agent (PA) to predict and "
+        "Integrate detailed recent matches data from the Data Analyst and critical "
+        "player insights from the Player Perspective to predict and "
         "plan the best tactical approaches for the "
-        "selected match ({match_selection}) in UEFA Euro 2024. Assess the potential impacts of various strategic "
+        "final match ({match_selection}) of UEFA Euro 2024. Assess the potential impacts of various strategic "
         "decisions on the match outcome. Request additional contextual data from FDAA "
         "or specific player details from PA as necessary to refine predictions."
     ),
@@ -130,7 +133,7 @@ coach_strategy_task = Task(
 
 head_of_sportsbook = Agent(
     role="Head of Sportsbook",
-    goal="Use integrated data from Football Data Analyst Agent, Player Perspective Agent, and Coach Perspective Agent "
+    goal="Use integrated data from Data Analyst Agent, Player Perspective Agent, and Coach Perspective Agent "
          "to set final betting odds and provide detailed match analyses for any given match.",
     backstory="As the final decision-maker in sports betting operations, this agent synthesizes "
               "expert knowledge in football analytics, betting trends, and risk management to predict"
@@ -143,16 +146,16 @@ head_of_sportsbook = Agent(
 
 sportsbook_task = Task(
     description=(
-        "Integrate and analyze predictions and data from the Football Data Analyst Agent, Player Perspective Agent, "
-        "and Coach Perspective Agent for the selected match ({match_selection}) in UEFA Euro 2024. "
+        "Integrate and analyze predictions and data from the Data Analyst Agent, Player Perspective Agent, "
+        "and Coach Perspective Agent for the final match ({match_selection}) of UEFA Euro 2024. "
         "Calculate the probabilities for each team to win, draw, or lose and provide a "
         "comprehensive analysis for each possible outcome."
     ),
     expected_output=(
         "1. Match Outcome Probabilities: Detailed percentages indicating the likelihood of "
-        "each outcome (win for either team or draw) for the match ({match_selection}) in UEFA Euro 2024. "
-        "2. Match Analysis: Provide an in-depth analysis for each scenario (win, draw, lose)"
-        " for the match ({match_selection}), explaining the key factors "
+        "each outcome (win for either team) for the final match ({match_selection}) of UEFA Euro 2024. "
+        "2. Match Analysis: Provide an in-depth analysis for each scenario (win, lose)"
+        " for the final match ({match_selection}), explaining the key factors "
         "and statistics that influence these outcomes, including tactical insights, "
         "player impacts, and strategic decisions."
     ),
@@ -170,7 +173,7 @@ football_analysis_crew = Crew(
 )
 
 football_match_inputs = {
-    'match_selection': 'Germany vs. Spain',
+    'match_selection': 'Spain vs. England',
     'news_impact_consideration': True,
 }
 

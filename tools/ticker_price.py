@@ -23,3 +23,4 @@ class TickerPrice():
             return close_price
         except KeyError:
             return "No data available for this date."
+
