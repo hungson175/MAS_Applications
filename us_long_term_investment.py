@@ -10,8 +10,8 @@ from dotenv import load_dotenv
 from crewai import Agent, Task, Crew, Process
 from crewai_tools import ScrapeWebsiteTool, SerperDevTool
 
-MANAGER_MODEL = "gpt-3.5-turbo"
-AGENT_MODEL = "gpt-3.5-turbo"
+MANAGER_MODEL = "gpt-4o-mini"
+AGENT_MODEL = "gpt-4o-mini"
 
 load_dotenv()
 
@@ -116,7 +116,7 @@ metrics_evaluation_task = Task(
         "Debt-to-Equity Ratio, "
         "Price-to-Earning Ratio (P/E), and Free Cash Flow (FCF). Ensure these values align with industry "
         "standards and historical performance data. "
-        "Provide the criteria to the Strategic Investment System Manager for confirmation and refinement."
+        "Provide the criteria tob the Strategic Investment System Manager for confirmation and refinement."
     ),
     expected_output=(
         "A comprehensive report defining the 'good' values for the six key financial metrics for companies "

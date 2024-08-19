@@ -6,8 +6,8 @@ warnings.filterwarnings('ignore')
 from crewai import Agent, Task
 from langchain_openai import ChatOpenAI
 
-MANAGER_MODEL = "gpt-4-turbo"
-AGENT_MODEL = "gpt-4-turbo"
+MANAGER_MODEL = "gpt-3.5-turbo"
+AGENT_MODEL = "gpt-3.5-turbo"
 # IP_ADDRESS = "http://192.168.0.223"
 
 # IP_ADDRESS = "http://localhost"
