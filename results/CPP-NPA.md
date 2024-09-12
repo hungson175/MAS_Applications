@@ -1,43 +1,57 @@
-# Overview of the Communist Party of the Philippines/New People's Army (CPP/NPA)
+# The Communist Party of the Philippines/New People's Army (CPP/NPA): An Analytical Overview
 
-The Communist Party of the Philippines (CPP) and its armed wing, the New People's Army (NPA), have been central figures in the ongoing communist insurgency in the Philippines, which is one of the longest-running conflicts in the country. Founded on March 29, 1969, by Jose Maria Sison and former members of the Hukbalahap, the NPA has engaged in a guerrilla war based on the Maoist strategy of a protracted people's war ([Wikipedia](https://en.wikipedia.org/wiki/New_People's_Army)). The CPP-NPA aims to consolidate political power from what it perceives as the current "bourgeois reactionary puppet government" and to aid in the "people's democratic revolution" ([Wikipedia](https://en.wikipedia.org/wiki/New_People's_Army)).
+## Introduction
 
-## Historical Context and Operations
+The Communist Party of the Philippines/New People's Army (CPP/NPA) represents one of the longest-running communist insurgencies in the world. Established in the late 1960s, the CPP/NPA has been a significant player in the political and social landscape of the Philippines. This report provides a comprehensive analysis of the CPP/NPA, examining its history, ideology, and objectives. It also explores various perspectives on the group from citizens, the government, and the international community, with a particular focus on the role of the Chinese government.
 
-The NPA primarily operates in the Philippine countryside, where it has established itself in 73 out of the country's 81 provinces across over 110 guerrilla fronts ([Wikiwand](https://www.wikiwand.com/en/articles/New_People's_Army)). In these guerrilla zones, the CPP-NPA has set up a People's Democratic Government, which operates independently of the Philippine government. In such areas, income taxes that would typically go to the government treasury are redirected to the NPA to fund community services ([Wikiwand](https://www.wikiwand.com/en/articles/New_People's_Army)).
+## Historical Background
 
-The NPA has a long history of targeting mining corporations and logging companies, accusing them of environmental destruction. For instance, in 2011, the NPA attacked three mines in Mindanao, causing $190 million in damages as a response to the murder of an anti-mining activist ([Wikipedia](https://en.wikipedia.org/wiki/New_People's_Army)). The NPA's operations have expanded significantly since the declaration of martial law by Ferdinand Marcos in the 1970s, reaching a mass base of over one million people with a substantial arsenal ([Wikiwand](https://www.wikiwand.com/en/articles/New_People's_Army)).
+The CPP was founded on December 26, 1968, by Jose Maria Sison, a former student activist who led a Maoist-oriented youth faction within the Partido Komunista ng Pilipinas (PKP) ([Mapping Militants Project](https://mappingmilitants.org/files/group-profiles/communist_party_of_the_philippines-new_peoples_army.pdf)). The New People's Army (NPA), the armed wing of the CPP, was established in 1969. The CPP/NPA's primary goal is to overthrow the Philippine government and establish a new state led by the working class, free from U.S. influence ([Stanford University](https://web.stanford.edu/group/mappingmilitants/cgi-bin/groups/print_view/149)).
 
-## Funding Sources
+## Ideology and Objectives
 
-The CPP-NPA has sustained its operations through various funding sources, including revolutionary taxes, foreign donations, and support from non-governmental organizations (NGOs). Government security agencies estimate that from 1987 to 2007, the CPP-NPA earned a total of PHP 7.22 billion (approximately USD 144 million) from these sources ([Small Wars Journal](https://smallwarsjournal.com/jrnl/art/explaining-the-sustainability-of-the-communist-party-of-the-philippines-new-people’s-army)). The revolutionary taxes are collected from businesses and politicians, with those refusing to pay often facing attacks ([Stanford](https://web.stanford.edu/group/mappingmilitants/cgi-bin/groups/print_view/149)).
+The CPP/NPA's ideology is rooted in Maoism, emphasizing a protracted people's war and mobilizing the rural masses ([Britannica](https://www.britannica.com/topic/New-Peoples-Army)). The group's objectives include redistributing land to the landless poor and initiating a cultural revolution. The CPP/NPA has historically focused on building support among the rural peasantry, although it has operated throughout the Philippines ([Mapping Militants Project](https://mappingmilitants.org/files/group-profiles/communist_party_of_the_philippines-new_peoples_army.pdf)).
 
-Foreign funding has also played a significant role. The CPP-NPA has received financial support from religious organizations such as the Australian Council of Churches and the United Methodist Church of the United States, as well as from other communist movements in East Germany, Hungary, and Yugoslavia during the late 1980s ([Small Wars Journal](https://smallwarsjournal.com/jrnl/art/explaining-the-sustainability-of-the-communist-party-of-the-philippines-new-people’s-army)). Additionally, the CPP-NPA's international solidarity work (ISW) activities generate funds from global liberation movements and leftist groups ([Small Wars Journal](https://smallwarsjournal.com/jrnl/art/explaining-the-sustainability-of-the-communist-party-of-the-philippines-new-people’s-army)).
+## Perspectives on the CPP/NPA
 
-## Perception and Designation
+### Citizen Perspective
 
-The CPP-NPA is perceived differently by various stakeholders. The Philippine government, along with the United States, the European Union, and Japan, has designated the CPP-NPA as a terrorist organization ([Wikiwand](https://www.wikiwand.com/en/articles/New_People's_Army)). This designation reflects concerns over the group's violent activities and its impact on national security. In December 2017, the Duterte administration officially labeled the CPP-NPA as a terrorist organization, a move supported by several international entities ([Wikiwand](https://www.wikiwand.com/en/articles/New_People's_Army)).
+From the citizen's perspective, the CPP/NPA is a polarizing entity. Some view it as a legitimate resistance movement against systemic inequalities and government corruption. The group has been able to attract recruits from universities and impoverished regions, leveraging its image as a champion of the marginalized ([Global Security](https://www.globalsecurity.org/military/world/para/npa.htm)). However, others see the CPP/NPA as a source of violence and instability, hindering economic development and peace in affected areas ([Rappler](https://www.rappler.com/voices/imho/opinion-communist-insurgency-essential-ingredient-power-politics/)).
 
-Despite these designations, the CPP-NPA continues to engage in peace talks with the Philippine government, represented by the National Democratic Front of the Philippines (NDFP). However, these negotiations have often reached an impasse, particularly during the Duterte administration, which unilaterally terminated peace talks in 2019 ([Wikiwand](https://www.wikiwand.com/en/articles/New_People's_Army)).
+### Government Perspective
 
-## Ideological Perspective
+The Philippine government has consistently viewed the CPP/NPA as a significant threat to national security. The group has been involved in numerous attacks against government forces, infrastructure, and officials. In response, the government has engaged in military operations and peace talks, although these have often been sporadic and inconclusive ([US Department of State](https://2001-2009.state.gov/r/pa/prs/ps/2004/35046.htm)). The government has also sought international support to combat the CPP/NPA, resulting in the group's designation as a foreign terrorist organization by the United States and the European Union ([Global Security](https://www.globalsecurity.org/military/world/para/npa.htm)).
 
-The CPP-NPA follows a Marxist-Leninist-Maoist ideology, viewing the Philippines as a semi-colonial, semi-feudal state where political and economic power is concentrated among a local class of landlords and comprador bourgeoisie, aided by foreign imperialists, primarily the United States ([Wikipedia](https://en.wikipedia.org/wiki/New_People's_Army)). The CPP advocates for a two-stage revolution: a People's Democratic Revolution followed by socialist reconstruction to achieve socialism and wrest control from the bourgeoisie ([Wikipedia](https://en.wikipedia.org/wiki/New_People's_Army)).
+### International Perspective
 
-## Challenges and Sustainability
+Internationally, the CPP/NPA has been recognized as a terrorist organization by several countries, including the United States and the European Union. This designation has led to financial sanctions and travel restrictions on the group's members ([US Department of State](https://2001-2009.state.gov/r/pa/prs/ps/2004/35046.htm)). Despite this, the CPP/NPA has maintained connections with other leftist organizations worldwide, seeking support and resources ([Stanford University](https://web.stanford.edu/group/mappingmilitants/cgi-bin/groups/print_view/149)).
 
-The CPP-NPA's sustainability is attributed to its strategic design as a protracted people's war and the persistence of conditions that foster impoverished rural communities receptive to its revolutionary message ([ACLED](https://acleddata.com/2023/07/13/the-communist-insurgency-in-the-philippines-a-protracted-peoples-war-continues/)). The group's ability to collect substantial funds from various sources with relative impunity is partly due to the Philippine government's insufficient compliance with international counterterrorism finance standards ([Small Wars Journal](https://smallwarsjournal.com/jrnl/art/explaining-the-sustainability-of-the-communist-party-of-the-philippines-new-people’s-army)).
+## Role of the Chinese Government
 
-The CPP-NPA's activities are most pronounced in agrarian regions such as Negros Occidental and Bukidnon, where agrarian unrest is prevalent ([ACLED](https://acleddata.com/2023/07/13/the-communist-insurgency-in-the-philippines-a-protracted-peoples-war-continues/)). These areas serve as ideal staging grounds for the CPP's revolution, given their significant agricultural production and employment ([ACLED](https://acleddata.com/2023/07/13/the-communist-insurgency-in-the-philippines-a-protracted-peoples-war-continues/)).
+Historically, the CPP/NPA received support from China, particularly during the early years of its insurgency. This support included weapons, funds, and training, aligning with China's broader strategy of supporting communist movements worldwide ([Global Security](https://www.globalsecurity.org/military/world/para/npa.htm)). However, China's support waned following the normalization of diplomatic relations with the Philippines in the 1970s. By 2011, China's Communist Party had severed its ties with the CPP/NPA, focusing instead on strengthening bilateral relations with the Philippine government ([Global Security](https://www.globalsecurity.org/military/world/para/npa.htm)).
+
+## Current Status and Challenges
+
+The CPP/NPA remains active, although its influence has fluctuated over the years. The group has faced internal splits and challenges, resulting in fragmentation into various factions ([Britannica](https://www.britannica.com/topic/New-Peoples-Army)). Despite these challenges, the CPP/NPA continues to engage in guerrilla warfare, primarily targeting Philippine security forces and government officials ([Mapping Militants Project](https://mappingmilitants.org/files/group-profiles/communist_party_of_the_philippines-new_peoples_army.pdf)).
+
+The Philippine government has intensified its efforts to combat the CPP/NPA, employing both military and non-military strategies. These efforts include community development programs aimed at addressing the root causes of insurgency, such as poverty and inequality ([US Institute of Peace](https://www.usip.org/publications/2022/02/examining-militarys-soft-power-challenge-southern-philippines)).
 
 ## Conclusion
 
-The CPP-NPA remains a significant force in the Philippines, driven by a combination of ideological commitment, strategic operations, and diverse funding sources. Despite being designated as a terrorist organization by multiple governments, the CPP-NPA continues to wield influence in rural areas, leveraging socio-economic grievances to sustain its insurgency. The group's future will likely depend on the Philippine government's ability to address underlying socio-economic issues and effectively implement counterterrorism finance measures.
+The CPP/NPA represents a complex and multifaceted challenge for the Philippines. While the group continues to advocate for social and political change, its methods and objectives have drawn significant criticism and opposition. The perspectives on the CPP/NPA vary widely, reflecting the broader societal divisions within the Philippines. As the government and international community continue to address the insurgency, the CPP/NPA's future remains uncertain, shaped by both internal dynamics and external pressures.
 
 ## References
 
-- ACLED. (2023, July 13). The communist insurgency in the Philippines: A protracted people's war continues. ACLED. https://acleddata.com/2023/07/13/the-communist-insurgency-in-the-philippines-a-protracted-peoples-war-continues/
-- Small Wars Journal. (n.d.). Explaining the sustainability of the Communist Party of the Philippines-New People’s Army. Small Wars Journal. https://smallwarsjournal.com/jrnl/art/explaining-the-sustainability-of-the-communist-party-of-the-philippines-new-people’s-army
-- Stanford. (n.d.). Mapping militants: New People's Army. Stanford University. https://web.stanford.edu/group/mappingmilitants/cgi-bin/groups/print_view/149
-- Wikipedia. (n.d.). New People's Army. Wikipedia. https://en.wikipedia.org/wiki/New_People's_Army
-- Wikiwand. (n.d.). New People's Army. Wikiwand. https://www.wikiwand.com/en/articles/New_People's_Army
+Mapping Militants Project. (n.d.). Communist Party of the Philippines-New People's Army. Retrieved from https://mappingmilitants.org/files/group-profiles/communist_party_of_the_philippines-new_peoples_army.pdf
+
+Stanford University. (n.d.). Communist Party of the Philippines-New People's Army. Retrieved from https://web.stanford.edu/group/mappingmilitants/cgi-bin/groups/print_view/149
+
+Britannica. (n.d.). New People's Army. Retrieved from https://www.britannica.com/topic/New-Peoples-Army
+
+Global Security. (n.d.). New People's Army (NPA). Retrieved from https://www.globalsecurity.org/military/world/para/npa.htm
+
+US Department of State. (2004). Foreign Terrorist Organization: Redesignation of Communist Party of the Philippines/New People's Army. Retrieved from https://2001-2009.state.gov/r/pa/prs/ps/2004/35046.htm
+
+Rappler. (n.d.). Opinion: Communist insurgency as an essential ingredient in power politics. Retrieved from https://www.rappler.com/voices/imho/opinion-communist-insurgency-essential-ingredient-power-politics/
+
+US Institute of Peace. (2022). Examining the Military’s Soft Power Challenge in the Southern Philippines. Retrieved from https://www.usip.org/publications/2022/02/examining-militarys-soft-power-challenge-southern-philippines
