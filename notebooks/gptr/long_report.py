@@ -41,7 +41,7 @@ def get_report_in_vietnamese(query: str, report_type: str) -> str:
 
 
 if __name__ == "__main__":
-    query = "Investment Analysis: Nafoods Group (NAF) Stock"
+    query = "The Impact of Substances on Creativity and Innovation Throughout History"
     report_type = "research_report"
     report = get_report_in_vietnamese(query, report_type)
     print(report)
