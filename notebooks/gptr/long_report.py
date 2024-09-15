@@ -70,7 +70,7 @@ def generate_file_name(query: str):
 
 
 if __name__ == "__main__":
-    query = "Real estate market in Vietnam post-COVID-19"
+    query = "The Impact of AI on Software Outsourcing Companies: Strategies for Adaptation"
     file_prefix = generate_file_name(query)
     english_file_name = file_prefix.content + "_en.md"
     vietnamese_file_name = file_prefix.content + "_vi.md"
