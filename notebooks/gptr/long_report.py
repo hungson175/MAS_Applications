@@ -6,7 +6,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_openai import ChatOpenAI
 from dotenv import load_dotenv
 
-QUERY = "Impact of Generative AI on Software Testing: How testers stay relevant ?"
+QUERY = "Impact of Generative AI on the Job Markets"
 
 load_dotenv()
 
