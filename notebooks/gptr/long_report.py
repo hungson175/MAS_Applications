@@ -6,6 +6,8 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_openai import ChatOpenAI
 from dotenv import load_dotenv
 
+QUERY = "Impact of Generative AI on Software Testing: How testers stay relevant ?"
+
 load_dotenv()
 
 
@@ -72,7 +74,7 @@ def generate_file_name(query: str):
 if __name__ == "__main__":
     # query = "The Impact of AI on Software Outsourcing Companies: Strategies for Adaptation"
     # query = "Adapting to the Impact of Generative AI: How HR Managers Can Stay Relevant ?"
-    query = "Adapting to the Impact of Generative AI: How Software Developers can stay relevant ?"
+    query = QUERY
     file_prefix = generate_file_name(query)
     english_file_name = file_prefix.content + "_en.md"
     vietnamese_file_name = file_prefix.content + "_vi.md"
